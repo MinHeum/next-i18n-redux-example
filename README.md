@@ -2,22 +2,18 @@
 
 Next.js doesn't support internationalized routing in `app` directory out of the box. But you can easily implement it yourself. This example shows how to implement internationalized routing on the Edge.
 
-## Deploy your own
+## 해당 프로젝트에 대해서
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/app-dir-i18n-routing)
+이 프로젝트는 Vercel의 [i18n예제](https://github.com/vercel/next.js/tree/canary/examples/app-dir-i18n-routing)와 [redux-toolkit 예제](https://github.com/vercel/next.js/tree/canary/examples/with-redux)를 합친 프로젝트입니다.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/app-dir-i18n-routing&project-name=app-dir-i18n-routing&repository-name=app-dir-i18n-routing)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## Getting Started
 
 ```bash
-npx create-next-app --example app-dir-i18n-routing i18n-app
-# or
-yarn create next-app --example app-dir-i18n-routing i18n-app
-# or
-pnpm create next-app --example app-dir-i18n-routing i18n-app
-```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+# Install dependencies
+yarn
+
+# Run the development server
+yarn dev
+
+```
